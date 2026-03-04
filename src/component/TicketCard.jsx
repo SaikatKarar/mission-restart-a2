@@ -20,7 +20,7 @@ export default function TicketCard({ ticket, onSelect }) {
                 </h3>
 
                 <span
-                    className={`flex items-center gap-1 text-base px-3 py-1 rounded-full font-medium
+                    className={`flex items-center gap-1 text-sm px-3 py-1 rounded-full font-medium
             ${isOpen
                             ? "bg-green-100 text-green-600"
                             : "bg-yellow-100 text-yellow-600"

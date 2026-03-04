@@ -38,21 +38,18 @@ export default function TicketStatsBanner({
                 <div
                     className="relative overflow-hidden rounded-xl p-16 text-white bg-gradient-to-r from-[#38B86D] to-[#0F9B8E]"
                 >
-                    {/* Left PNG */}
                     <img
                         src="/images/vector1.png"
                         alt=""
                         className="absolute left-0 top-0 h-full opacity-20 pointer-events-none"
                     />
 
-                    {/* Right PNG */}
                     <img
                         src="/images/vector1.png"
                         alt=""
                         className="absolute right-0 top-0 h-full opacity-20 pointer-events-none scale-x-[-1]"
                     />
 
-                    {/* Content */}
                     <div className="relative z-10 text-center">
                         <h3 className="text-lg font-medium mb-4 tracking-wide">
                             Resolved
