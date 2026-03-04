@@ -5,7 +5,7 @@ const tickets = [
         description: "Customer is unable to log in to their account. They've tried resetting their password multiple times but still...",
         customer: "John Smith",
         priority: "HIGH PRIORITY",
-        status: "open",
+        status: "Open",
         createdAt: "2024-01-15",
     },
     {
@@ -14,7 +14,7 @@ const tickets = [
         description: "Customer attempted to pay using Visa ending 1234 but the payment keeps failing despite sufficient balance.",
         customer: "Sarah Johnson",
         priority: "HIGH PRIORITY",
-        status: "open",
+        status: "Open",
         createdAt: "2024-01-16",
     },
     {
@@ -23,7 +23,7 @@ const tickets = [
         description: "Customer cannot download their January invoice from the billing section. The download button is...",
         customer: "Michael Brown",
         priority: "MEDIUM PRIORITY",
-        status: "open",
+        status: "Open",
         createdAt: "2024-01-17",
     },
     {
@@ -32,7 +32,7 @@ const tickets = [
         description: "Customer’s billing address shows a different city. They updated it but it still displays the old one.",
         customer: "Emily Davis",
         priority: "LOW PRIORITY",
-        status: "open",
+        status: "Open",
         createdAt: "2024-01-14",
     },
     {
@@ -41,7 +41,7 @@ const tickets = [
         description: "Customer reports that the mobile app crashes immediately upon opening on Android 13.",
         customer: "David Wilson",
         priority: "HIGH PRIORITY",
-        status: "open",
+        status: "Open",
         createdAt: "2024-01-19",
     },
     {
@@ -59,7 +59,7 @@ const tickets = [
         description: "Customer is not receiving 2FA codes on their registered phone number.",
         customer: "James Anderson",
         priority: "HIGH PRIORITY",
-        status: "open",
+        status: "Open",
         createdAt: "2024-01-21",
     },
     {
@@ -68,7 +68,7 @@ const tickets = [
         description: "Customer tries to upload a new profile picture but gets 'Upload failed' error.",
         customer: "Olivia Martinez",
         priority: "LOW PRIORITY",
-        status: "open",
+        status: "Open",
         createdAt: "2024-01-24",
     },
     {
@@ -86,7 +86,7 @@ const tickets = [
         description: "Customer placed an order but didn't receive a confirmation email even though payment succeeded.",
         customer: "Isabella Garcia",
         priority: "MEDIUM PRIORITY",
-        status: "open",
+        status: "Open",
         createdAt: "2024-01-24",
     },
 ];
