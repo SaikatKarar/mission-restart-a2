@@ -1,16 +1,24 @@
-# React + Vite
+- What is JSX, and why is it used?
+ - What is the difference between State and Props?
+ - What is the useState hook, and how does it work?
+ - How can you share state between components in React?
+ - How is event handling done in React?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+### What is JSX, and why is it used?
+ - JSX stands for Javascript XML. It is a Javascript syntax extension. Its an XML or HTML like syntax used by ReactJs. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### What is the difference between State and Props?
+- State is a component internal data that can change over time and is managed within the component.Props are read-only data passed from a parent component to a child component and cannot be modified by the child.
 
-## React Compiler
+### What is the useState hook, and how does it work?
+- useState is a React Hook used to add and manage state in functional components. It returns a state value and a function to update that value, which re-renders the commponent when the state chenges.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### How can you share state between components in React?
+- State can be shared between components by lifting the state up to a common parent component. The parent then passes the state and functions as props to the chaild components that need it.
 
-## Expanding the ESLint configuration
+### How is event handling done in React?
+- Event handling in React is done using camelCase event names like onClick, onChange. You handle events by passing a function as the event handler inside the JSX elemant.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
