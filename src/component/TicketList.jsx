@@ -78,7 +78,7 @@ export default function TicketList({
 
                                     <button
                                         onClick={() => handleComplete(task)}
-                                        className="w-full bg-green-600 hover:bg-green-700 transition text-white font-medium py-3 rounded-lg"
+                                        className="w-full bg-green-600 hover:bg-green-700 transition text-white font-medium py-3 rounded-lg cursor-pointer"
                                     >
                                         Complete
                                     </button>
